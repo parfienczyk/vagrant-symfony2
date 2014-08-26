@@ -59,30 +59,31 @@
 To speed up the startup process use ```$ vagrant up --no-provision```
 
 ####Install Symfony Standard edition
-* SSH to vagrant ```$ vagrant ssh```
+* SSH to vagrant 
+    ```$ vagrant ssh```
 
 
-1. Run script in terminal
+#### 1. Run script in terminal
 
-    ```./install.symfony.sh
+    ```./install.symfony.sh```
 
-2. OR
+#### 2. OR
 
-* Clone symfony standard edition to somewhere temporary (version 2.5)
-    
-    ```$ git clone https://github.com/symfony/symfony-standard.git /tmp/symfony```    
-    
-* Move symfony repository to server document root
+    * Clone symfony standard edition to somewhere temporary (version 2.5)
+        
+        ```$ git clone https://github.com/symfony/symfony-standard.git /tmp/symfony```    
+        
+    * Move symfony repository to server document root
 
-    ```$ mv /tmp/symfony/.git /vagrant/www/```
+        ```$ mv /tmp/symfony/.git /vagrant/www/```
 
-* Reset repository to restore project files
-    
-    ```$ cd /vagrant/www && git reset --hard HEAD```
+    * Reset repository to restore project files
+        
+        ```$ cd /vagrant/www && git reset --hard HEAD```
 
-* Install dependencies
+    * Install dependencies
 
-    ```$ cd /vagrant/www && composer update```
+        ```$ cd /vagrant/www && composer update```
     
 * Edit ```web/app_dev.php``` to allow host
 
