@@ -62,9 +62,7 @@ To speed up the startup process use ```$ vagrant up --no-provision```
 * SSH to vagrant 
     ```$ vagrant ssh```
 
-####1. Run script in terminal
-
-    ```$ ./install.symfony.sh```
+####1. Run script in terminal ```$ install.symfony.sh```
 
 ####2. OR
 
@@ -85,9 +83,6 @@ To speed up the startup process use ```$ vagrant up --no-provision```
     ```$ cd /vagrant/www && composer update```
     
 * Edit ```web/app_dev.php``` to allow host
-
-## TODO
-You tell me
 
 ## CONTACT
 * parfienczyk@gmail.com
