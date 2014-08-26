@@ -64,7 +64,7 @@ To speed up the startup process use ```$ vagrant up --no-provision```
 
 ####1. Run script in terminal 
 
-    ```$ install.symfony.sh```
+    $ install.symfony.sh
 
 ####2. OR
 
